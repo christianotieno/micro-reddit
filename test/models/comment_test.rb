@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
 class CommentTest < ActiveSupport::TestCase
   def setup
-    @comment = Comment.new(body: 'Title Example', user_id:1, post_id:1)
+    @comment = Comment.new(body: 'Title Example', user_id: 1, post_id: 1)
   end
 
   test 'should be valid' do
