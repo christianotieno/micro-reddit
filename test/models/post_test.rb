@@ -4,7 +4,7 @@ require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
   def setup
-    @post = User.new(title: 'Title Example', content: 'This is a content example')
+    @post = Post.new(title: 'Title Example', content: 'This is a content example')
   end
 
   test 'should be valid' do
@@ -22,12 +22,12 @@ class PostTest < ActiveSupport::TestCase
   end
 
   test 'title should not be too long' do
-    @post.title = 'a' * 80
+    @post.title = 'a' * 81
     assert_not @post.valid?
   end
 
   test 'content should not be too long' do
-    @post.content = 'a' * 8000
+    @post.content = 'a' * 8001
     assert_not @post.valid?
   end
 end

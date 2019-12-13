@@ -81,3 +81,6 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # Set-up Rubocop
 gem 'rubocop'
+
+# A Rails engine for comments.
+gem 'commontator', '~> 6.1', '>= 6.1.1'
