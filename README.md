@@ -33,4 +33,3 @@ Done!
 * Github: [@christianotieno](https://github.com/christianotieno)
 * Twitter: [@iamchisotieno](https://twitter.com/iamchrisotieno)
 * Linkedin: [Christian Otieno](https://www.linkedin.com/in/christianotieno/)
->>>>>>> micro-reddit
